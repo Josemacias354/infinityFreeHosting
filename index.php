@@ -1,4 +1,5 @@
 <?php
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
 function get_browser_name($user_agent)
 {
     if(strpos($user_agent, 'Opera') || strpos($user_agent, 'OPR/')) return 'Opera';
