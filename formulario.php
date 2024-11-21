@@ -17,5 +17,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>$nom</p>";
     echo "<p>$edat</p>";
     echo "<p>$dni</p>";
+
+    if (empty($nom) || empty($edat) || empty($dni)) {
+        echo "<p style='color: red;'>Has d'omplir tots els camps</p>";
+    }
+    else {
+        echo "<p style='color: green;'>Formulari enviat correctament</p>";
+    }
 }
 ?>
