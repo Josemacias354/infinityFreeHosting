@@ -1,9 +1,9 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $nom = $_GET['nombre'];
-    $edat = $_GET['Edad'];
-    $dni = $_GET['DNI'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nom = $_POST['nombre'];
+    $edat = $_POST['Edad'];
+    $dni = $_POST['DNI'];
 
     echo "<h1>Formulari</h1>";
     echo "<p><strong>Nom:</strong> $nom</p>";
