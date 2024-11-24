@@ -4,7 +4,7 @@
 $db_host = "sql108.infinityfree.com";
 $db_user = "if0_37620354";
 $db_passw = "uctHkzdfb4E88m";
-$db_name = "if0_37620354_pruebaacceso";
+$db_name = "if0_37620354_pruebaacceso";S
 
 
     $conexion = new mysqli($GLOBALS['db_host'], $GLOBALS['db_user'], $GLOBALS['db_passw'], $GLOBALS['db_name']);

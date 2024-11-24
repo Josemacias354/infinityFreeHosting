@@ -1,7 +1,7 @@
 <?php
 $data=$_POST['dades'];
 
- json_encode($data);
+ json_decode($data);
 
 echo "<h1>Formulari</h1>";
 $nom = $data['nom'];
